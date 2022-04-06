@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Sight Words</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="style.css">
+<script defer src="main.js"></script>
+</head>
+
+<body>
+
+<div id=game>
+	<div id=word-window>
+		<h1>Current Word</h1>
+		<p id=word></p>
+		<div id=results>
+			<button id=yes>🔥</button>
+			<button hidden id=no>👎</button>
+		</div>
+		
+		<div id=word-list-list>
+			
+		</div>
+	</div>
+	
+	<div id=options-window>
+		<!-- DISABLED AT THE MOMENT -->
+		<label hidden for="word-list">
+			Choose word list:
+			<input type=file id=word-list-input name=word-list accept="text/csv">
+		</label>
+		<br hidden>
+		<!-- END -->
+		
+		<button id=hide-word>Hide Word (H)</button>
+		<br><br>
+		<button id=mark-attempt>Mark Attempt (T)</button>
+		<br><br>
+		<button id=mark-success>Mark Success</button>
+		<br><br>
+		<button id=skip-word>Skip Word</button>
+		<br><br>
+		<button id=export>Export</button>
+		<textarea id=export-results hidden></textarea><br>
+		
+
+		<div id=points-window>
+			<p id=points>Points: </p>
+		</div>
+		
+		<div hidden id=yes-words-window>
+			DISABLED ATM AND PROBABLY FOREVER
+			<h2>Correct</h2>
+			<div id=yes-words-list>
+				ssdflgok
+			</div>
+		</div>
+		
+		<div hidden id=no-words-window>
+			DISABLED ATM AND PROBABLY FOREVER
+			<h2>Incorrect</h2>
+			<div id=no-words-list>
+				
+			</div>
+		</div>
+		
+		<div id=all-words-window>
+			<h2>Words</h2>
+			<div id=all-words-list>
+			
+			</div>
+		</div>
+	</div>
+</div>
+
+</body>
+</html>
