@@ -1,3 +1,5 @@
+Site: https://github.com/danthestudent/sight-word-helper
+
 # Hotkeys
 ```js
 Hide Word : 'H'
