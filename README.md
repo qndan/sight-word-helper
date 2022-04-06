@@ -1,12 +1,12 @@
 Site: https://danthestudent.github.io/sight-word-helper/
-
-# Hotkeys
+# Instructions
+## Hotkeys
 ```js
 Hide Word : 'H'
 Mark Attempt : 'T'
 ```
 
-# Tips
+## Tips
  - Press the big fire button to mark the current word as success and go to the next word.
  - You can press on a word in the word list to skip to it
  - Press `H` on your keyboard or the hide button on the side to hide the word for word games
@@ -14,7 +14,7 @@ Mark Attempt : 'T'
  - You can see words you marked as attempted by pressing the export button
  - Mark success will mark the current word as a success without going to the next word
 
-# Export
+## Export
 The export button helps you keep track of words you marked as attempted.
 
 The export format looks like this:
