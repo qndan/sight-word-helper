@@ -1,5 +1,5 @@
 html, body {
-	font-family: 'Century Gothic';
+	font-family: 'Century Gothic', sans-serif;
 	
 	height: 100%;
 	padding: 0;
@@ -23,7 +23,7 @@ body {
 }
 
 #options-window {
-	font-family: Arial;
+	font-family: Arial, sans-serif;
 	padding: .5em;
 }
 
@@ -32,6 +32,7 @@ body {
 	font-weight: lighter;
 }
 #word {
+	color: black;
 	margin: .25em 0 0 0;
 	
 	font-weight: normal;
@@ -63,6 +64,7 @@ body {
 }
 .results-word {
 	/* resetting button styles */
+	color: black;
 	font-family: inherit;
 	background: none;
 	font-size: inherit;
