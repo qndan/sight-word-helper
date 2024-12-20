@@ -1,4 +1,4 @@
-Site: https://danthestudent.github.io/sight-word-helper/
+Site: https://pillburry.github.io/sight-word-helper/
 # Instructions
 ## Hotkeys
 ```js
