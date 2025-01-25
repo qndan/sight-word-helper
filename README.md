@@ -1,4 +1,4 @@
-Site: https://pillbury.github.io/sight-word-helper/
+Site: https://qndan.github.io/sight-word-helper/
 # Instructions
 ## Hotkeys
 ```js
